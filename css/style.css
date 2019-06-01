@@ -1,0 +1,21 @@
+.padre {
+  display: flex;
+  flex-direction: row;
+}
+.izquierdo {
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 900px;
+}
+.hijos {
+  background-color: red;
+  width: 100px;
+  height: 100px;
+  margin: 20px;
+}
+.derecho {
+  background-color: red;
+  height: 450px;
+  width: 450px;
+  margin: 25px;
+}
